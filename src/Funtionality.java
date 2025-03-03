@@ -27,7 +27,7 @@ public class Funtionality {
     public void displayMenu() {
         CellStyle center = new CellStyle(CellStyle.HorizontalAlign.center);
 
-        Table menuTable = new Table(1, BorderStyle.UNICODE_ROUND_BOX_WIDE, ShownBorders.ALL);
+        Table menuTable = new Table(1, BorderStyle.UNICODE_ROUND_BOX_WIDE, ShownBorders.SURROUND_HEADER_AND_COLUMNS);
         menuTable.addCell("STAFF MANAGEMENT SYSTEM", center);
         menuTable.addCell("1. Insert Employee", center);
         menuTable.addCell("2. Update Employee", center);
